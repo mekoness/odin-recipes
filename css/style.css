@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: chartreuse;
+}
+
+a:hover {
+    color: white;
+}
+
+.content {
+    background-color: darkslategray;
+    width: 600px;
+    padding: 10px;
+}
