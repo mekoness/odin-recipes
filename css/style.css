@@ -17,15 +17,13 @@ body {
 }
 
 h1 {
-	grid-column: 1 / 3;
 	text-align: center;
 	font-size: 40px;
 }
 
-.navbar {
-	grid-column: 1 / 3;
-	text-align: center;
-	padding: 0;
+img {
+  width: 30%;
+  margin: 10px;
 }
 
 .btn {
@@ -33,7 +31,7 @@ h1 {
 	display: inline-block;
 	padding: 20px 75px;
 	margin: 0 auto;
-	font-size: 24px;
+	font-size: 20px;
 	border: 1px solid darkslategray;
 }
 
@@ -44,17 +42,33 @@ h1 {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
 	width: 80%;
 	padding: 10px;
-	margin: 0 auto;
+	margin: 30px auto;
 	border: 10px double #FFF;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 5px;
-	grid-auto-rows: minmax(auto);
+}
+
+.navbar {
+	text-align: center;
+	padding: 0;
 }
 
 .content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 	background-color: darkslategray;
 	padding: 10px;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
