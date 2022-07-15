@@ -1,2 +1,2 @@
-TOS Exercise
+The Odin Project
 Recipes Site
