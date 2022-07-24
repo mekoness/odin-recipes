@@ -78,16 +78,28 @@ main {
 }
 
 img {
-  height: 100%;
+  width: 300px;
+  margin: 20px auto;
 }
 
-p {
-  margin: 20px;
+.foodimg {
+  border-radius: 50%;
+}
+
+.text {
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.footertext {
+  padding: 0;
+  margin: 0;
 }
 
 footer {
   padding: 16px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
